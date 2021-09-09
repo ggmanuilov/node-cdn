@@ -1,0 +1,25 @@
+{
+  "name": "cdn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "tsc && node dist/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ggmanuilov/node-cdn.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ggmanuilov/node-cdn/issues"
+  },
+  "homepage": "https://github.com/ggmanuilov/node-cdn#readme",
+  "devDependencies": {
+    "@types/node": "^16.9.0",
+    "tslint": "^5.12.1",
+    "typescript": "^3.9.10"
+  }
+}
