@@ -10,7 +10,7 @@ export class PeerFile {
     constructor(filePath: string, speedPerSecond: number) {
         this.filePath = filePath;
         this.speedPerSecond = speedPerSecond;
-        this.readStream = fs.createReadStream(this.filePath, {highWaterMark: this.speedPerSecond * 1024});
+        this.readStream = fs.createReadStream(this.filePath, {highWaterMark: this.speedPerSecond});
     }
 
     * makeChunk(): Generator<Buffer> {
